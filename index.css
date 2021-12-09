@@ -1,0 +1,39 @@
+body{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: darkblue;
+}
+li{
+    font-style: italic;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    color: white;
+    font-weight: bold;
+    font-style:normal;
+    padding: 10px;
+    border-right :1px solid white ;
+    border-right-color:rgba(255, 255, 255, 50%);
+    width: 100px;
+}
+nav ul li:hover{
+    background-color: orange;
+}
+div li{
+    font-style: ital 
+}
+.liste_1{
+    text-decoration: underline;
+}
+.liste_2 li{
+    border:1px solid ;
+}
+#elmt_2{
+ border-radius:5px;
+ background-color: salmon ;
+}

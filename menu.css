@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+nav li{
+background-color: green;
+display:block;
+flex: 1;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	width: 100%;
+	border: 1px solid white;
+	display: block; 
+	border-right: 1px solid white; 
+	text-align: center;
+}
+.submenu{
+	display: none;
+	position: absolute;
+}
+.submenu li{
+	display: block;
+	width:calc(100vw/6);
+}
+nav li:hover .submenu {
+	display: block;
+}
+
+nav ul li a:hover{
+	background-color: greenyellow;
+}

@@ -1,0 +1,18 @@
+.img1{
+    background-image: url("web-development.jpg");
+    background-image: no-repeat;
+    background-size: contain;
+    height: 600px;
+}
+.img2{
+    background-image: url("code.jpg");
+    width: 1000px;
+    height:500px;
+    border: 2px solid black;
+}
+.img3{
+    background-image: url("img3.jpeg");
+    width: 750px;
+    height: 400px;
+    border: 2px solid black;
+}

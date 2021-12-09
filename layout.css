@@ -1,0 +1,149 @@
+#conteneur{
+    background-color: black;
+    width: 900px;
+    height: 80vh;
+    margin:80px auto;
+    border:solid 8px black;
+    display: grid;
+    grid-gap:10px; 
+    grid-template-areas:
+    "w1 w4 w4 w4 w4 w4 w4 w9 w9 w9 w9 w9 w9 wf j5" 
+    "w1 b1 b1 b1 b1 b1 b1 wa wa b3 b3 b3 b3 wf j5"
+    "w1 b1 b1 b1 b1 b1 b1 wa wa b3 b3 b3 b3 wf j5"
+    "n1 w5 w5 n2 w6 w6 w8 j3 j3 r4 r4 r4 r5 wf j5"
+    "n1 w5 w5 n2 w6 w6 w8 j3 j3 r4 r4 r4 r5 wf j5"
+    "n1 w5 w5 n2 w6 w6 w8 j3 j3 r4 r4 r4 r5 wf j5"
+    "n1 w5 w5 n2 w6 w6 w8 j3 j3 r4 r4 r4 r5 wf j5"
+    "n1 w5 w5 n2 w6 w6 w8 j3 j3 r4 r4 r4 r5 wf j5"
+    "n1 w5 w5 n2 j1 r2 r2 b2 b2 wb wb wb wd n4 n4"
+    "n1 w5 w5 n2 j1 r2 r2 b2 b2 wb wb wb wd n4 n4"
+    "n1 w5 w5 n2 j2 r2 r2 b2 b2 wb wb wb wd n4 n4"
+    "w3 r1 r1 n2 j2 w7 w7 w7 wc wc b4 b4 j4 wg wg"
+    "w3 r1 r1 n2 j2 w7 w7 w7 wc wc b4 b4 j4 wg wg"
+    "w3 r1 r1 n2 j2 w7 w7 w7 wc wc b4 b4 j4 wg wg"
+    "w3 r1 r1 n2 j2 w7 w7 w7 wc wc b4 b4 j4 wg wg"
+    "w3 r1 r1 n2 j2 w7 w7 w7 wc wc b4 b4 j4 wg wg"
+    "w3 r1 r1 n2 j2 r3 r3 n3 n3 n3 we we we we we"
+    "w2 w2 w2 w2 j2 r3 r3 n3 n3 n3 we we we we we"
+    "w2 w2 w2 w2 j2 r3 r3 n3 n3 n3 we we we we we";
+}
+.blanche{
+    background-color: white;
+}
+.bleu{
+    background-color: blue;
+
+}
+.rouge{
+    background-color: red;
+}
+.jaune{
+    background-color: yellow;
+}
+.noire{
+background-color: black;
+}
+#w1{
+    grid-area: w1;
+}
+#w2{
+    grid-area: w2; 
+}
+#w3{
+    grid-area: w3;
+}
+#n1{
+    grid-area: n1;
+}
+#w4{
+    grid-area: w4;
+}
+#b1{
+    grid-area: b1;
+}
+#w5{
+    grid-area: w5;
+}
+#r1{
+    grid-area: r1;
+}
+#n2{
+    grid-area: n2;
+}
+#w6{
+    grid-area: w6;
+}
+#j1{
+    grid-area: j1;
+}
+#j2{
+    grid-area: j2;
+}
+#r2{
+    grid-area: r2;
+}
+#w7{
+    grid-area: w7;
+}
+#r3{
+    grid-area: r3;
+}
+#w8{
+    grid-area: w8;
+}
+#w9{
+    grid-area: w9;
+}
+#wa{
+    grid-area: wa;
+}
+#j3{
+    grid-area: j3;
+}
+#b2{
+    grid-area: b2;
+}
+#n3{
+    grid-area: n3;
+}
+#b3{
+    grid-area: b3;
+}
+#r4{
+    grid-area: r4;
+}
+#wb{
+    grid-area: wb;
+}
+
+#wd{
+    grid-area: wd;
+}
+
+#r5{
+    grid-area: r5;
+}
+#b4{
+    grid-area: b4;
+}
+#j4{
+    grid-area: j4;
+}
+#we{
+    grid-area: we;
+}
+#wc{
+    grid-area: wc;
+}
+#wf{
+    grid-area: wf;
+}
+#wg{
+    grid-area: wg;
+}
+#n4{
+    grid-area: n4;
+}
+#j5{
+    grid-area: j5;
+}
